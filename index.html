@@ -7,6 +7,200 @@
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-    
+    <form>
+
+        <div class="container mx-auto">
+            <h1 class="text-3xl md:text-4xl text-gray-600 font-bold text-center mb-3">Textile Job Calculator</h1>
+            <div class="justify-center items-center grid grid-cols-4 gap-y-6">
+
+                <!-- First Yarn -->
+                <div
+                    class="bg-white rounded-lg shadow-lg border-2 border-sky-200 m-3 p-4 w-fit h-full col-span-4 md:col-span-2 lg:col-span-1">
+                    <div class="m-2 grid grid-cols-5">
+                        <label for="taar" class="text-base text-gray-600 m-2 col-span-2 text-right">TAAR</label>
+                        <input
+                            class="h-10 p-2 border-2 border-sky-200 focus:outline-none text-gray-600 rounded-lg col-span-3"
+                            id="taar" type="number" placeholder="TAAR" value="0">
+                    </div>
+                    <div class="m-2 grid grid-cols-5">
+                        <label for="danier" class="text-base text-gray-600 m-2 col-span-2 text-right">DANIER</label>
+                        <input
+                            class="h-10 p-2 border-2 border-sky-200 focus:outline-none text-gray-600 rounded-lg col-span-3"
+                            id="danier_1" type="number" placeholder="DANIER" value="0">
+                    </div>
+                    <div class="m-2 grid grid-cols-5">
+                        <label for="tfo" class="text-base text-gray-600 m-2 col-span-2 text-right">TFO</label>
+                        <input
+                            class="h-10 p-2 border-2 border-sky-200 focus:outline-none text-gray-600 rounded-lg col-span-3"
+                            id="tfo_1" type="number" placeholder="TFO" value="0">
+                    </div>
+                    <div class="m-2 grid grid-cols-5">
+                        <label for="yarn rate"
+                            class="text-base text-gray-600 m-2 col-span-2 text-right">YARN
+                            RATE</label>
+                        <input
+                            class="h-10 p-2 border-2 border-sky-200 focus:outline-none text-gray-600 rounded-lg col-span-3"
+                            id="yarn_rate_1" type="number" placeholder="YARN RATE" value="0">
+                    </div>
+                    <div class="m-2 grid grid-cols-5">
+                        <label for="weight"
+                            class="text-base text-gray-600 m-2 col-span-2 text-right">WEIGHT</label>
+                            <h1 class="p-2 text-base text-gray-600" id="weight_1">00.0000</h1>
+                    </div>
+                    <div class="m-2 grid grid-cols-5">
+                        <label for="yarn cost"
+                            class="text-base text-gray-600 m-2 col-span-2 text-right">YARN_COST</label>
+                            <h1 class="p-2 text-base text-gray-600" id="yarn_cost_1">00.0000</h1>
+                    </div>
+                </div>
+
+                <!-- Second Yarn -->
+                <div
+                    class="bg-white rounded-lg shadow-lg border-2 border-sky-200 m-3 p-4 w-fit h-full col-span-4 md:col-span-2 lg:col-span-1">
+                    <div class="m-2 grid grid-cols-5">
+                        <label for="pic" class="text-base text-gray-600 m-2 col-span-2 text-right">PIC</label>
+                        <input
+                            class="h-10 p-2 border-2 border-sky-200 focus:outline-none text-gray-600 rounded-lg col-span-3"
+                            id="pic_1" type="number" placeholder="PIC" value="0">
+                    </div>
+                    <div class="m-2 grid grid-cols-5">
+                        <label for="panno" class="text-base text-gray-600 m-2 col-span-2 text-right">PANNO</label>
+                        <input
+                            class="h-10 p-2 border-2 border-sky-200 focus:outline-none text-gray-600 rounded-lg col-span-3"
+                            id="panno_1" type="number" placeholder="PANNO" value="0">
+                    </div>
+                    <div class="m-2 grid grid-cols-5">
+                        <label for="danier" class="text-base text-gray-600 m-2 col-span-2 text-right">DANIER</label>
+                        <input
+                            class="h-10 p-2 border-2 border-sky-200 focus:outline-none text-gray-600 rounded-lg col-span-3"
+                            id="danier_2" type="number" placeholder="DANIER" value="0">
+                    </div>
+                    <div class="m-2 grid grid-cols-5">
+                        <label for="tfo" class="text-base text-gray-600 m-2 col-span-2 text-right">TFO</label>
+                        <input
+                            class="h-10 p-2 border-2 border-sky-200 focus:outline-none text-gray-600 rounded-lg col-span-3"
+                            id="tfo_2" type="number" placeholder="TFO" value="0">
+                    </div>
+                    <div class="m-2 grid grid-cols-5">
+                        <label for="yarn rate" class="text-base text-gray-600 m-2 col-span-2 text-right">YARN
+                            RATE</label>
+                        <input
+                            class="h-10 p-2 border-2 border-sky-200 focus:outline-none text-gray-600 rounded-lg col-span-3"
+                            id="yarn_rate_2" type="number" placeholder="YARN RATE" value="0">
+                    </div>
+                    <div class="m-2 grid grid-cols-5">
+                        <label for="weight"
+                            class="text-base text-gray-600 m-2 col-span-2 text-right">WEIGHT</label>
+                            <h1 class="p-2 text-base text-gray-600" id="weight_2">0.0000</h1>
+                    </div>
+                    <div class="m-2 grid grid-cols-5">
+                        <label for="yarn cost"
+                            class="text-base text-gray-600 m-2 col-span-2 text-right">YARN_COST</label>
+                            <h1 class="p-2 text-base text-gray-600" id="yarn_cost_2">00.0000</h1>
+                    </div>
+                </div>
+
+                <!-- Third Yarn -->
+                <div
+                    class="bg-white rounded-lg shadow-lg border-2 border-sky-200 m-3 p-4 w-fit h-full col-span-4 md:col-span-2 lg:col-span-1">
+                    <div class="m-2 grid grid-cols-5">
+                        <label for="pic" class="text-base text-gray-600 m-2 col-span-2 text-right">PIC</label>
+                        <input
+                            class="h-10 p-2 border-2 border-sky-200 focus:outline-none text-gray-600 rounded-lg col-span-3"
+                            id="pic_2" type="number" placeholder="PIC" value="0">
+                    </div>
+                    <div class="m-2 grid grid-cols-5">
+                        <label for="panno" class="text-base text-gray-600 m-2 col-span-2 text-right">PANNO</label>
+                        <input
+                            class="h-10 p-2 border-2 border-sky-200 focus:outline-none text-gray-600 rounded-lg col-span-3"
+                            id="panno_2" type="number" placeholder="PANNO" value="0">
+                    </div>
+                    <div class="m-2 grid grid-cols-5">
+                        <label for="danier" class="text-base text-gray-600 m-2 col-span-2 text-right">DANIER</label>
+                        <input
+                            class="h-10 p-2 border-2 border-sky-200 focus:outline-none text-gray-600 rounded-lg col-span-3"
+                            id="danier_3" type="number" placeholder="DANIER" value="0">
+                    </div>
+                    <div class="m-2 grid grid-cols-5">
+                        <label for="tfo" class="text-base text-gray-600 m-2 col-span-2 text-right">TFO</label>
+                        <input
+                            class="h-10 p-2 border-2 border-sky-200 focus:outline-none text-gray-600 rounded-lg col-span-3"
+                            id="tfo_3" type="number" placeholder="TFO" value="0">
+                    </div>
+                    <div class="m-2 grid grid-cols-5">
+                        <label for="yarn rate" class="text-base text-gray-600 m-2 col-span-2 text-right">YARN
+                            RATE</label>
+                        <input
+                            class="h-10 p-2 border-2 border-sky-200 focus:outline-none text-gray-600 rounded-lg col-span-3"
+                            id="yarn_rate_3" type="number" placeholder="YARN RATE" value="0">
+                    </div>
+                    <div class="m-2 grid grid-cols-5">
+                        <label for="weight"
+                            class="text-base text-gray-600 m-2 col-span-2 text-right">WEIGHT</label>
+                            <h1 class="p-2 text-base text-gray-600" id="weight_3">0.0000</h1>
+                    </div>
+                    <div class="m-2 grid grid-cols-5">
+                        <label for="yarn cost"
+                            class="text-base text-gray-600 m-2 col-span-2 text-right">YARN_COST</label>
+                            <h1 class="p-2 text-base text-gray-600" id="yarn_cost_3">00.0000</h1>
+                    </div>
+                </div>
+
+                <!-- Sell -->
+                <div
+                    class="bg-white rounded-lg shadow-lg border-2 border-sky-200 m-3 p-4 w-fit h-full col-span-4 md:col-span-2 lg:col-span-1">
+                    <div class="m-2 grid grid-cols-4">
+                        <label for="total weight"
+                            class="text-base text-gray-600 m-2 col-span-2 text-right">T. WEIGHT</label>
+                            <h1 class="p-2 text-base text-gray-600" id="total_weight">0.0000</h1>
+                    </div>
+                    <div class="m-2 grid grid-cols-4">
+                        <label for="yarn cost"
+                            class="text-base text-gray-600 m-2 col-span-2 text-right">T. YARN_COST</label>
+                            <h1 class="p-2 text-base text-gray-600" id="total_yarn_cost">900.0000</h1>
+                    </div>
+                    <div class="m-2 grid grid-cols-4">
+                        <label for="warping" class="text-base text-gray-600 m-2 col-span-2 text-right">WARPING</label>
+                        <input
+                            class="h-10 p-2 border-2 border-sky-200 focus:outline-none text-gray-600 rounded-lg col-span-2"
+                            id="warping" type="number" placeholder="WARPING" value="0">
+                    </div>
+                    <div class="m-2 grid grid-cols-4">
+                        <label for="job"
+                            class="text-base text-gray-600 m-2 col-span-2 text-right">WITH WARPING</label>
+                            <h1 class="py-4 px-2 text-base text-gray-600" id="total_yarn_cost_with_warping">0.0000</h1>
+                    </div>
+                    <div class="m-2 grid grid-cols-4">
+                        <label for="sell rate" class="text-base text-gray-600 m-2 col-span-2 text-right">SELL
+                            RATE</label>
+                        <input
+                            class="h-10 p-2 border-2 border-sky-200 focus:outline-none text-gray-600 rounded-lg col-span-2"
+                            id="sell_rate" type="number" placeholder="SELL RATE" value="0">
+                    </div>
+                    <div class="m-2 grid grid-cols-4">
+                        <label for="job"
+                            class="text-base text-gray-600 m-2 col-span-2 text-right">JOB</label>
+                            <h1 class="p-2 text-base text-gray-600" id="job">0.0000</h1>
+                    </div>
+                    <div class="m-2 grid grid-cols-4">
+                        <label for="pic" class="text-base text-gray-600 m-2 col-span-2 text-right">PIC</label>
+                        <input class="h-10 p-2 border-2 border-sky-200 focus:outline-none text-gray-600 rounded-lg col-span-2"
+                        id="pic_at_job" type="number" placeholder="PIC" value="0">
+                    </div>
+                    <div class="m-2 grid grid-cols-4">
+                        <label for="pic job"
+                            class="text-base text-gray-600 m-2 col-span-2 text-right">PIC JOB</label>
+                            <h1 class="p-2 text-base text-gray-600" id="pic_job">0.0000</h1>
+                    </div>
+                </div>
+
+            </div>
+            <div class="w-full text-center my-8">
+                <button type="button"
+                    class="py-2 px-5 text-sm font-bold text-gray-700 shadow-md focus:outline-none bg-gray-200 rounded-full border-2 border-sky-200 hover:bg-gray-300 hover:text-gray-700 focus:ring-4 focus:ring-gray-100">CALCULATE</button>
+            </div>
+        </div>
+
+    </form>
 </body>
 </html>
