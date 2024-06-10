@@ -195,7 +195,7 @@
                 </div>
 
             </div>
-            <div class="w-full text-center my-8">
+            <div class="w-full text-center my-8 mb-64 md:mb-8">
                 <button type="button" onclick="calculateJob()" 
                     class="py-2 px-5 text-sm font-bold text-gray-700 shadow-md focus:outline-none bg-gray-200 rounded-full border-2 border-sky-200 hover:bg-gray-300 hover:text-gray-700 focus:ring-4 focus:ring-gray-100">CALCULATE</button>
             </div>
@@ -280,7 +280,6 @@
         document.getElementById("job").innerHTML = job.toFixed(4);
 
         pic_job = job / pic_at_job;
-        console.log(pic_job);
         
         document.getElementById("pic_job").innerHTML = pic_job.toFixed(4);
         }
